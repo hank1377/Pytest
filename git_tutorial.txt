@@ -6,3 +6,17 @@ git add git_tutorial.txt
 git commit - m 'hello'
 
 git push -u origin master 
+
+
+
+git config --global user.email "hank1377@hotmail.com"
+git config --global user.name "hank1377"
+
+git fetch origin
+git merge origin master
+g??????it pull origin master --allow-unrelated-histories
+g??????it clean  -d  -fx ""
+
+
+https://stackoverflow.com/questions/37937984/git-refusing-to-merge-unrelated-histories
+https://stackoverflow.com/questions/4858047/the-following-untracked-working-tree-files-would-be-overwritten-by-checkout
