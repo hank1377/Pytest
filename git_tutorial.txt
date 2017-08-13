@@ -1,0 +1,8 @@
+http://darren1231.pixnet.net/blog/post/327621717-%E8%B6%85%E7%B4%9A%E7%B0%A1%E5%96%AE%E6%96%B9%E4%BE%BF%E7%9A%84-git-%E5%AE%89%E8%A3%9D%E6%95%99%E5%AD%B8
+
+
+git init 
+git add git_tutorial.txt
+git commit - m 'hello'
+
+git push -u origin master 
