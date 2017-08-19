@@ -1,0 +1,1012 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html lang="zh-TW" class="ie6 ielt8"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="zh-TW" class="ie7 ielt8"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="zh-TW" class="ie8"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html lang="zh-TW"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+  <title>蘋果即時新聞｜蘋果日報｜Apple Daily</title>
+  <meta name="description" content="蘋果日報網站提供即時、快速、豐富的最新時事動態，包含國際、社會、娛樂、政治、生活、財經等最新訊息，並為您搜奇地球村萬象與趣聞，強調有圖有真相、影片最明白，讓您時時刻刻掌握天下事！" />
+  <meta name="keywords" content="蘋果日報,Apple Daily,台灣,壹傳媒,Apple, Animation news, Action News, Apple news, news,蘋果,即時,最新,蘋果新聞,新聞,壹週刊,壹電視,動新聞,即時新聞,Facebook,臉書,蘋果粉絲團,plurk,twitter,留言,分享,按讚,天氣,影音新聞,影片,影音,行動版,手機,App,Android,iphone,Mango,爆料,投稿,發票,統一發票,RSS,生活,國際,娛樂,體育,副刊,財經,股市,樂透,威力彩,社會,熱門,彩券,頭彩" />
+  <meta property="og:title" content="蘋果即時新聞｜蘋果日報｜Apple Daily"/>
+  <meta property="og:image" content="http://img.appledaily.com.tw/appledaily/images/core/logo_bg.png"/>
+  <meta property="og:description" content="蘋果日報網站提供即時、快速、豐富的最新時事動態，包含國際、社會、娛樂、政治、生活、財經等最新訊息，並為您搜奇地球村萬象與趣聞，強調有圖有真相、影片最明白，讓您時時刻刻掌握天下事！"/>
+  <link rel="shortcut icon" href="http://img.appledaily.com.tw/appledaily/pinsite/64x64.ico">
+  <link rel="shortcut icon" type="image/x-icon" href="http://img.appledaily.com.tw/appledaily/pinsite/64x64.ico">
+  <link rel="icon" type="image/ico" href="http://img.appledaily.com.tw/appledaily/pinsite/64x64.ico">
+  <link rel="stylesheet" href="http://img.appledaily.com.tw/appledaily/images/css/style.css">
+  <link rel="stylesheet" href="http://img.appledaily.com.tw/appledaily/images/css/modules.css">
+  <link rel="stylesheet" href="http://img.appledaily.com.tw/appledaily/images/css/rtnewslist.css" />
+  <link rel="stylesheet" href="http://img.appledaily.com.tw/appledaily/style.css" />
+  <link rel="stylesheet" href="http://img.appledaily.com.tw/appledaily/images/css/realtimenews.css" />
+  <script src="http://img.appledaily.com.tw/www/js/html5.js"></script>
+  <script src="http://img.appledaily.com.tw/appledaily/images/js/jquery-1.7.2.min.js"></script>
+  <script type="text/javascript" src="http://img.appledaily.com.tw/appledaily/images/js/iepngfix.js"></script>
+  <script type="text/javascript" src="http://img.appledaily.com.tw/appledaily/images/js/jquery.ifixpng.js"></script>
+  <link rel="stylesheet" href="http://img.appledaily.com.tw/appledaily/images/js/owlcarousel/owl.carousel.css">
+  <link rel="stylesheet" href="http://img.appledaily.com.tw/appledaily/images/js/owlcarousel/carousel-layout.css">
+  <link rel="stylesheet" href="http://img.appledaily.com.tw/appledaily/images/js/owlcarousel/assets/css/animate-custom.css">
+  <script src="http://img.appledaily.com.tw/appledaily/images/js/owlcarousel/owl.carousel.fix.js"></script>
+  <script type="text/javascript" src="http://img.appledaily.com.tw/appledaily/images/js/appledaily-detectmobilebrowser.js"></script>
+  <script type="text/javascript" src="http://img.appledaily.com.tw/appledaily/images/js/jquery.cookie.min.js"></script>
+  <script type="text/javascript" language="JavaScript" src="http://img.appledaily.com.tw/appledaily/images/js/gpt.js"></script>
+  <script>
+        googletag.cmd.push(function() {
+              var mappingHeadBanner = googletag.sizeMapping().addSize([0, 0], [ [970,90],[728,90],[970,160], [970,250] ]).build();
+              var mappingMiniLREC = googletag.sizeMapping().addSize([0, 0], [ [300,50], [300,75], [300,100] , [300,150] ]).build();
+              var mappingLREC = googletag.sizeMapping().addSize([0, 0], [ [300,250], [300,600] ]).build();
+              var mappingSkyscraper = googletag.sizeMapping().addSize([0, 0], [ [150,660], [160,600], [120,600] ]).build();
+              var mappingBottomBanner = googletag.sizeMapping().addSize([0, 0], [ [1,1], [970,250], [970,90], [728,90], [970,160] ]).build();
+              HeadBanner = gpt.createAdSlot('TWAppleDaily/realtimenews_new_index/HeadBanner', 'HeadBanner', 'leaderboard', GeoDFP).defineSizeMapping(mappingHeadBanner).setCollapseEmptyDiv(true);
+              LREC1 = gpt.createAdSlot('TWAppleDaily/realtimenews_new_index/LREC1', '300x600', 'rectangleAD1', GeoDFP).defineSizeMapping(mappingLREC).setCollapseEmptyDiv(true);
+              LREC2 = gpt.createAdSlot('TWAppleDaily/realtimenews_new_index/LREC2', '300x600', 'rectangleAD2', GeoDFP).defineSizeMapping(mappingLREC).setCollapseEmptyDiv(true);
+              MiniLREC1 = gpt.createAdSlot('TWAppleDaily/realtimenews_new_index/Mini_LREC1', '300x50', 'MiniLREC1', GeoDFP).defineSizeMapping(mappingMiniLREC).setCollapseEmptyDiv(true);
+              MiniLREC2 = gpt.createAdSlot('TWAppleDaily/realtimenews_new_index/Mini_LREC2', '300x50', 'MiniLREC2', GeoDFP).defineSizeMapping(mappingMiniLREC).setCollapseEmptyDiv(true);
+              MiniLREC3 = gpt.createAdSlot('TWAppleDaily/realtimenews_new_index/Mini_LREC3', '300x50', 'MiniLREC3', GeoDFP).defineSizeMapping(mappingMiniLREC).setCollapseEmptyDiv(true);
+              MiniLREC4 = gpt.createAdSlot('TWAppleDaily/realtimenews_new_index/Mini_LREC4', '300x50', 'MiniLREC4', GeoDFP).defineSizeMapping(mappingMiniLREC).setCollapseEmptyDiv(true);
+              halfpage = gpt.createAdSlot('TWAppleDaily/realtimenews_new_index/halfpage', '300x600', 'halfpage', GeoDFP);
+              W1 = gpt.createAdSlot('TWAppleDaily/realtimenews_new_index/skyscraper1', '150x660', 'door-left', GeoDFP).defineSizeMapping(mappingSkyscraper).setCollapseEmptyDiv(true);
+              W2 = gpt.createAdSlot('TWAppleDaily/realtimenews_new_index/skyscraper2', '150x660', 'door-right', GeoDFP).defineSizeMapping(mappingSkyscraper).setCollapseEmptyDiv(true);
+              BottomBanner = gpt.createAdSlot('TWAppleDaily/realtimenews_new_index/BottomBanner', '1x1', 'BottomBanner', GeoDFP).defineSizeMapping(mappingBottomBanner).setCollapseEmptyDiv(true);
+              Richmedia  = gpt.createAdSlot('TWAppleDaily/realtimenews_new_index/Richmedia', '1x1', 'Richmedia', GeoDFP);
+              gpt.enableServices();
+        })
+  </script>
+</head>
+<body id="article" class="all">
+    <div class="wrapper">
+        <div class="sqrezeer">
+            <script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "8028476" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="http://b.scorecardresearch.com/p?c1=2&c2=8028476&cv=2.0&cj=1" />
+</noscript>
+
+<!-- 1X1 -->
+<script type="text/javascript" src="http://imp.nextmedia.com/js/nxm_tr_v18.js"></script>
+<script type="text/javascript" src="http://img.appledaily.com.tw/appledaily/images/js/1x1/fingerprint.js"></script>
+<script>
+function extractDomain(url) {
+    var domain;
+    //find & remove protocol (http, ftp, etc.) and get domain
+    if (url.indexOf("://") > -1) {
+        domain = url.split('/')[2];
+    }
+    else {
+        domain = url.split('/')[0];
+    }
+    //find & remove port number
+    domain = domain.split(':')[0];
+    return domain;
+}
+var ref='';
+if(document.referrer.indexOf('appledaily.com.tw') > -1)
+{
+  ref=document.referrer.replace('http://','').replace('https://','');
+}
+else {
+  ref=extractDomain(document.referrer);
+}
+    nxmTrack.nxmAddSeg("REGION=TW");
+    nxmTrack.nxmAddSeg("PROD=ADAILY");
+    nxmTrack.nxmAddSeg("SITE=www.appledaily.com.tw");
+    nxmTrack.nxmAddSeg("CH=APPLEDAILY");
+    nxmTrack.nxmAddSeg("SECTION=REAL");
+    nxmTrack.nxmAddSeg("MENU=即時新聞/最新");
+    nxmTrack.nxmAddSeg("TITLE=");
+    nxmTrack.nxmAddSeg("SUBSECT=new");
+    nxmTrack.nxmAddSeg("SUBSUBSECT=");
+    nxmTrack.nxmAddSeg("MEDIA=TEXT");
+    nxmTrack.nxmAddSeg("CONTENT=INDEX");
+    nxmTrack.nxmAddSeg("ISSUEID=");
+    nxmTrack.nxmAddSeg("CID=");
+    nxmTrack.nxmAddSeg("CAT=new");
+    nxmTrack.nxmAddSeg("NEWS=REALTIME");
+    nxmTrack.nxmAddSeg("PLATFORM=WEB");
+    nxmTrack.nxmAddSeg("EDM=MOST");
+    nxmTrack.nxmAddSeg("AUTH=");
+    nxmTrack.nxmAddSeg("KY=");
+    nxmTrack.nxmAddSeg("REF="+ref);
+    nxmTrack.nxmAddSeg("SRC=TWAD");
+    nxmTrack.nxmAddSeg("ACTION=PAGEVIEW");
+    nxmTrack.nxmAddSeg("L="+document.gtLang().toUpperCase());
+        var ngs_id = nxmTrack.readCookie('ngs_id');
+    if (ngs_id == null) ngs_id = '';
+    nxmTrack.nxmAddSeg('NGSID=' + ngs_id);
+
+    $(document).ready(function() {
+        nxmTrack.nxmSendPageDepth(0, new Date().getTime());
+
+        //Scroll up/down tracking depth
+        var trackRecords = [];
+        $(window).scroll(function() {
+            var scrollPercent = getPageScrollPercent();
+            if (scrollPercent >= 25 && trackRecords.indexOf("25") == -1) {
+                trackRecords.push("25");
+                nxmTrack.nxmSendPageDepth(25, new Date().getTime());
+            } else if (scrollPercent >= 50 && trackRecords.indexOf("50") == -1) {
+                trackRecords.push("50");
+                nxmTrack.nxmSendPageDepth(50, new Date().getTime());
+            } else if (scrollPercent >= 75 && trackRecords.indexOf("75") == -1) {
+                trackRecords.push("75");
+                nxmTrack.nxmSendPageDepth(75, new Date().getTime());
+            } else if (scrollPercent == 100 && trackRecords.indexOf("100") == -1) {
+                trackRecords.push("100");
+                nxmTrack.nxmSendPageDepth(100, new Date().getTime());
+            }
+        });
+        function getPageScrollPercent() {
+            var bottom = $(window).height() + $(window).scrollTop();
+            var height = $(document).height();
+            return Math.round(100 * bottom / height);
+        }
+    });
+
+</script>
+
+<style>
+    #door {position:relative; width:970px; margin-top:45px;}
+    #door-left{position:absolute;right: 975px;}
+    #door-right{position:absolute;left: 975px;}
+    #ypv {float:right;margin:-81px 135px 0px 0px;}
+    #ypv a {color:#055b94}
+    .nypv {background: url('http://img.appledaily.com.tw/appledaily/images/core/iconset.png') 0px -41px no-repeat;display: inline-block;color: #055b94;width:14px;height:12px;}
+    #corpnav a {padding: 0 6px 0 6px;}
+    a.mc {left:843px;}
+    #corpgs a {top: 9px;}
+    .nxlik .nh {left: 805px;top: 18px;}
+    #corpgs .fund {background-image:url('http://img.appledaily.com.tw/appledaily/images/core/foundation_top.png');width:65px;height:14px;margin-left:712px;margin-top:18px;}
+    #worldwide {top: 26px;right: 0px;}
+    .translate {    position: absolute;top: 10px;right: 270px;}
+    .translate.twn {display:none}
+</style>
+<header id="globehead">
+    <div class="sqzer">
+        <hgroup>
+          <h2 class="nlogo"><a href="http://www.nextdigital.com.hk/investor/" class="nextmedia overcooked">This is a part of NextMedia</a></h2>
+          <h1 class="rlogo"><a href="/realtimenews" class="overcooked">蘋果日報 | APPLE DAILY</a></h1>
+          <!--locate start-->
+            <style>
+            .locate {width: 122px;position:absolute;top: 10px;left: 455px;}
+            .locate a {color:black;display:block;position:absolute;top:5px;left: 30px;font-size: 13px;z-index:1}
+            .locate select {opacity:0;position:absolute;width: 90px;top:5px;left: 25px;z-index:1}
+            .locate:after {content:url(http://img.appledaily.com.tw/appledaily/images/pclicon.png);width:115px;height:22px;position:absolute;top:0px;    border-left: 1px solid #d5d5d5;border-top: 1px solid #9b9b9b;border-bottom: 1px solid #e8e8e8;border-right: 1px solid #d5d5d5;}
+            </style>
+            <div class="locate" id="USlocate" style="display:none">
+            <a href="">切換地區</a>
+            <form>
+                <select data-role="none" id="select-category" onchange="chgUSCat(this.value)">
+                    <option value="0">切換地區</option>
+                    <option value="ny">紐約</option>
+                    <option value="la">洛杉磯</option>
+                    <option value="sf">舊金山</option>
+                    <option value="us">其他美國地區</option>
+                </select>
+            </form>
+            </div>
+         <!--locate end-->
+        </hgroup>
+        <nav id="corpnav">
+          <a href="/" class="opacity " target="_blank"><img src="http://img.appledaily.com.tw/appledaily/images/core/menu_AppleDaily.png" alt=" 蘋果日報" /></a>
+          <a href="/actionnews" class="opacity" target="_blank"><img src="http://img.appledaily.com.tw/appledaily/images/core/menu_AnimatedNews.png" alt=" 動新聞" /></a>
+          <a href="http://www.applelive.com.tw/livechannel/" class="opacity" target="_blank"><img src="http://img.appledaily.com.tw/appledaily/images/core/applelive.gif" alt=" 蘋果Live" /></a>
+          <a href="http://applevr.appledaily.com.tw/" class="opacity" target="_blank"><img src="http://img.appledaily.com.tw/appledaily/images/core/VRlogo87x40.png" alt=" 蘋果VR" width="83" height="30"/></a>
+          <a href="http://sharpdaily.tw/" class="opacity" target="_blank"><img src="http://img.appledaily.com.tw/appledaily/images/core/menu_SharpDaily.png" alt="爽報" /></a>
+          <a href="http://www.nextmag.com.tw" class="opacity" target="_blank"><img src="http://img.appledaily.com.tw/appledaily/images/core/menu_NextMag.png" alt="壹週刊" /></a>
+          <a href="http://www.tomonews.com/" class="opacity" target="_blank"><img src="http://img.appledaily.com.tw/appledaily/images/core/tomonews_blue.png" alt="Tomonews" style="margin-top:9px"/></a>
+          <a href="/teded" target="_blank" style="opacity: 0.5;"><img src="http://img.appledaily.com.tw/appledaily/images/core/ted.png" alt="Ted"></a>
+          <a href="http://fami.tw/pc" class="opacity last" target="_blank" style="opacity: 0.5;"><img src="http://img.appledaily.com.tw/appledaily/images/core/01_PC_Fami_v1.png" alt="fami"></a>
+        </nav>
+
+        <!--language start-->
+        <div class="translate" id="googletranslate" style="display:none">
+            <div id="google_translate_element"></div>
+            <script type="text/javascript">
+            function googleTranslateElementInit() {
+              new google.translate.TranslateElement({pageLanguage: 'zh-TW', includedLanguages: 'zh-CN,zh-TW', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+            }
+            </script>
+            <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+        </div>
+        <!--language end-->
+                <section id="worldwide">
+            <a href="http://www.twnextdigital.com/" class="tw on">台灣&nbsp;</a>
+            <a href="http://www.nextdigital.com.hk/" class="hk">香港&nbsp;</a>
+        </section>
+                <section id="ypv">
+            <a href="http://www.nextdigital.com.hk/investor/" target="_blank"><span class="nypv"></span><span>昨日瀏覽量&nbsp;:&nbsp;</span><span id="pv">19630546</span></a>
+        </section>
+        <div style="clear:both"></div>
+        <section id="corpgs">
+            <a href="/ethics/index.html" class="mc" target="_blank">蘋果日報自律委員會</a>
+            <a class="fund" href="/charity" target="_blank"></a>
+            <a href="http://www.nextdigital.com.hk/investor/" class="nxlik" target="_blank"><span class="nh overcooked">Nextmedia</span></a>
+        </section>
+                    <section id="door">
+                <div id="door-left"><script type='text/javascript'>googletag.cmd.push(function() {googletag.display('door-left');})</script></div>
+                <div id="door-right"><script type='text/javascript'>googletag.cmd.push(function() {googletag.display('door-right');})</script></div>
+            </section>
+            </div>
+</header>
+<style>
+    .navlv2 {width: 80.8px;border-top:1px solid #797979;}
+    .rsearch {width: 241.8px;border-right:0px;border-top:1px solid #797979;}
+    #newnav .boomed a,#newnav .boom a:hover {background-color:#EC7F27;color: #FFFFFF;}
+    #newnav .new a:hover,#newnav .newed a {background:#D50404}
+    .rsbox {width:205px;}
+    #newnav .usa a:hover,#newnav .usaed a {background-color: #ff0f0f;}
+    #newnav .usacity a:hover,#newnav .usacityed a {background-color: #2113bf;}
+    .usacity,.usacityed,.usa,.usaed {display:none}
+    #newnav .show {display:block;}
+    li.usacityed.show ~ li.usa.show ~ li.rsearch {width:79.8px}
+    li.usacityed.show ~ li.usa.show ~ li.rsearch .rsbox {width:43px}
+    li.usacity.show ~ li.usaed.show ~ li.rsearch {width:79.8px}
+    li.usacity.show ~ li.usaed.show ~ li.rsearch .rsbox {width:43px}
+    li.usacity ~ li.usaed.show ~ li.rsearch {width:160.8px}
+    li.usacity ~ li.usaed.show ~ li.rsearch .rsbox {width:124px}
+    li.usacity ~ li.usa.show ~ li.rsearch {width:160.8px}
+    li.usacity ~ li.usa.show ~ li.rsearch .rsbox {width:124px}
+    li.usacity.show ~ li.usa.show ~ li.rsearch {width:79.8px}
+    li.usacity.show ~ li.usa.show ~ li.rsearch .rsbox {width:43px}
+    .rtddt time font font {margin-right: -20px;}
+    .rtddt.sp_ad font font {margin-right: 0px;}
+    .rtddt h2 font {margin-right: 0px;display: inline-block;padding-bottom: 1px;}
+    .rtddt h1 font {display: inline-block;margin-right:0px;}
+</style>
+<nav id="realnav" >
+    <div id="newnav">
+        <ul>
+            <li id="ny" class="usacity navlv2"><a title="紐約" href="/realtimenews/section/ny/">紐約</a></li>
+            <li id="sf" class="usacity navlv2"><a title="舊金山" href="/realtimenews/section/sf/">舊金山</a></li>
+            <li id="la" class="usacity navlv2"><a title="洛杉磯" href="/realtimenews/section/la/">洛杉磯</a></li>
+            <li id="us" class="usa navlv2"><a title="美國" href="/realtimenews/section/us/">美國</a></li>
+            <li class="newed navlv2"><a title="最新" href="/realtimenews/section/new/">最新</a></li>
+            <li class="recommend navlv2"><a title="焦點" href="/realtimenews/section/recommend/">焦點</a></li>
+            <li class="hot navlv2"><a title="熱門" href="/realtimenews/section/hot/">熱門</a></li>
+            <li class="boom navlv2"><a title="爆社" href="http://www.appledaily.com.tw/complainevent" target="_blank">爆社</a></li>
+            <li class="zoo navlv2"><a title="動物" href="/realtimenews/section/animal/">動物</a></li>
+            <li class="rsea navlv2"><a title="副刊" href="/realtimenews/section/strange/">副刊</a></li>
+            <li class="ccc navlv2"><a title="3C" href="/realtimenews/section/3c/">3C</a></li>
+            <li class="video navlv2"><a title="影片" href="/realtimenews/section/video/">影片</a></li>
+            <li class="hotg navlv2"><a title="火線" href="http://www.appledaily.com.tw/column/index">火線</a></li>
+            <li class="sport navlv2"><a title="體育" href="/realtimenews/section/sports/">體育</a></li>
+            <li class="fun navlv2"><a title="壹週刊" href="/realtimenews/section/nextmag/">壹週刊</a></li>
+            <li class="forum navlv2"><a title="媒陣" href="/realtimenews/forum/istyle/new/#collaboration">媒陣</a></li>
+            <li class="enter navlv2"><a title="娛樂" href="/realtimenews/section/entertainment/">娛樂</a></li>
+            <li class="fashion navlv2"><a title="時尚" href="/realtimenews/section/fashion/">時尚</a></li>
+            <li class="life navlv2"><a title="生活" href="/realtimenews/section/life/">生活</a></li>
+            <li class="soci navlv2"><a title="社會" href="/realtimenews/section/local/">社會</a></li>
+            <li class="inter navlv2"><a title="國際" href="/realtimenews/section/international/">國際</a></li>
+            <li class="business navlv2"><a title="財經" href="/realtimenews/section/finance/">財經</a></li>
+            <li class="house navlv2"><a title="地產" href="/realtimenews/section/property/">地產</a></li>
+            <li class="polit navlv2"><a title="政治" href="/realtimenews/section/politics/">政治</a></li>
+            <li class="blog navlv2"><a title="論壇" href="/realtimenews/section/forum/">論壇</a></li>
+            <li class="rsearch">
+                <form name="searchform" id="searchform" action="http://search.appledaily.com.tw/appledaily/search" method="POST">
+                  <input type="hidden" name="searchType" value="text">
+                  <input type="hidden" name="searchMode" value="Sim">
+                  <input type="text" name="querystrS" id="search" class="rsbox" />
+                  <input type="submit" value="" class="rsbtn" />
+                </form>
+            </li>
+            <div style="clear:both"></div>
+        </ul>
+    </div>
+</nav>
+<script>
+    if (GeoDFP['CC'] == 'US') {
+        switch(GeoDFP['D']) {
+            case '803' :
+                $('#la').addClass("show");
+                break;
+            case '807' :
+                $('#sf').addClass("show");
+                break;
+            case '501' :
+                $('#ny').addClass("show");
+                break;
+        }
+        $('#us').addClass("show");
+        $('#USlocate').show();
+        $('#googletranslate').show();
+    }
+    function chgUSCat(strzone){
+          if (strzone!='0') {
+              var GeoUSDFP = {};
+              GeoJson = JSON.parse($.cookie('GeoDFP'));
+              if(GeoJson){
+                GeoUSDFP['CC'] = GeoJson['DFP']['CC'];
+                GeoUSDFP['S'] = GeoJson['DFP']['S'];
+                switch(strzone) {
+                    case 'la' :
+                        GeoUSDFP['D'] = '803';
+                        break;
+                    case 'sf' :
+                        GeoUSDFP['D'] = '807';
+                        break;
+                    case 'ny' :
+                        GeoUSDFP['D'] = '501';
+                        break;
+                }
+
+                $.cookie('GeoDFP', JSON.stringify({"DFP":GeoUSDFP}),{expires: 7, path: '/' });
+                location.href = "/realtimenews/section/"+strzone;
+              }
+          }
+    }
+</script>
+            <div class="soil">
+              <section  class="ads">
+                  <div id="leaderboard"><script type='text/javascript'>googletag.cmd.push(function() {googletag.display('leaderboard');})</script></div>
+                  <div id="Richmedia" style="height:0px"><script type='text/javascript'>googletag.cmd.push(function() {googletag.display('Richmedia');})</script></div>
+              </section>
+              <article id="maincontent" class="vertebrae">
+                  <style>#hotnewsbox{ background:url("http://img.appledaily.com.tw/appledaily/images/yellow_news.gif") no-repeat; height:36px; padding:14px 0 0 134px}</style>                    <script type="text/javascript" src="http://img.appledaily.com.tw/appledaily/images/js/jquery.textslider.min.js"></script>
+                    <style>
+                        .slideText { position: relative; overflow: hidden; height: 32px; }
+                        .slideText ul, .slideText li {margin: 0;padding: 0;list-style: none;}
+                        .slideText ul {position: absolute;}
+                        .slideText li a {font-size:20px;color:#000000;display: block;overflow: hidden;height: 30px;line-height: 25px;text-decoration: none;}
+                        .slideText li a:hover {text-decoration: underline;}
+                        #hotnewsbox2 {background: url("http://img.appledaily.com.tw/appledaily/images/red_recommend.gif") no-repeat;height: 36px;padding: 14px 0 0 195px;}
+                    </style>
+                    <script type="text/javascript">
+                      $(document).ready(function(){
+                          $('.slideText').textslider({
+                              direction : 'scrollUp',
+                              scrollNum : 1,
+                              scrollSpeed : 800,
+                              pause : 3200
+                          });
+                      });
+                    </script>
+                    <div id="hotnewsbox">
+                        <div class="slideText">
+                            <ul>
+                                <li><a href="/realtimenews/article/politics/20170813/1181064/" #>【獨家】時力搶攻百里侯　擬推熱血教師挑戰新竹市長</a></li><li><a href="/realtimenews/article/life/20170813/1180556/" #>【圖解流行】揭密！米其林餐廳評鑑原來是這樣</a></li><li><a href="/realtimenews/article/finance/20170813/1181292/300萬口頭offer正常嗎？網友說當然…" #>300萬口頭offer正常嗎？網友說當然…</a></li>                            </ul>
+                        </div>
+                    </div>
+                  
+                  <div class="thoracis">
+                    <style>
+                          /* firewire */
+                          .firewire-container {width: 650px; height: 100px; overflow: hidden; margin-bottom: 10px;}
+                          #firewire .item {width: 650px;  height: 100px;  background: #dddddd url(http://img.appledaily.com.tw/appledaily/images/js/owlcarousel/ajax-loader.gif) center center no-repeat;}
+                          #firewire .item a {width: 100%; height: 100%;  display: block;}
+                          #firewire .item img {display: block; border: none;}
+                          /* override */
+                          #splash { margin-bottom: 10px;}
+                        .hotkeynews {background-color:#e0e0e0}
+                        .hotkeynews time {color:#ff534f}
+                        .hotkeynews li {background-color:white;margin-bottom:2px;}
+                        .topheaddr {background:#cc0000;height:40px;position:relative;margin-top:-15px}
+                        .topheadrr {width:134px;height:40px;background:#ff1a14;float:left;}
+                        .topheadrr h1 {display:block;font-size:16px;color:white;padding:12px 0px 0px 19px;}
+                        .topheaddr time {float:right;color:white;padding:13px 19px 0px 0px;}
+                        .botlinerr {background:#cc0000;height:5px}
+                        .botlinedr {width:134px;height:5px;background:#ff1a14}
+                        .dddd {margin: 0.65em 0 0.65em;}
+                    </style>
+                    <section id="splash">
+                        <div id="carousel">
+                                                            <div class="item">
+                                    <a href="/realtimenews/article/life/20170813/1181043/" target="_blank">
+                                      <img  class="owl-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="http://img.appledaily.com.tw/images/thumbnail/other/b348b58e3eab27182d6b9e99975e7bcb.jpg" alt="骨灰罈在台流浪2年　台大社工師送菲男歸鄉" tcode="骨灰罈在台流浪2年　台大社工師送菲男歸鄉"/>
+                                                                          </a>
+                                </div>
+                                                            <div class="item">
+                                    <a href="/realtimenews/article/life/20170813/1181287/" target="_blank">
+                                      <img  class="owl-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="http://img.appledaily.com.tw/images/thumbnail/other/ee9d24d726be5bb523c3c765c15fac0a.jpg" alt="麥當勞3神器" tcode="麥當勞3神器"/>
+                                                                          </a>
+                                </div>
+                                                            <div class="item">
+                                    <a href="/realtimenews/article/entertainment/20170813/1180978/" target="_blank">
+                                      <img  class="owl-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="http://img.appledaily.com.tw/images/thumbnail/other/a9c6b482780943977712c716ea1902b9.jpg" alt="廖家儀綑186箱家當　移居香港最懷念這味" tcode="廖家儀綑186箱家當　移居香港最懷念這味"/>
+                                                                          </a>
+                                </div>
+                                                            <div class="item">
+                                    <a href="/realtimenews/article/entertainment/20170813/1179881/" target="_blank">
+                                      <img  class="owl-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="http://img.appledaily.com.tw/images/thumbnail/other/0d098dccb9f1b719b61e9cc07086e868.jpg" alt="齊秦樂手墜台喪命12年　胞兄淚睡墳上孵金曲" tcode="齊秦樂手墜台喪命12年　胞兄淚睡墳上孵金曲"/>
+                                                                          </a>
+                                </div>
+                                                            <div class="item">
+                                    <a href="/realtimenews/article/local/20170813/1181259/" target="_blank">
+                                      <img  class="owl-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="http://img.appledaily.com.tw/images/thumbnail/other/399661e13b350128b4becd6d19017a7b.jpg" alt="高中妹援交30人" tcode="高中妹援交30人"/>
+                                                                          </a>
+                                </div>
+                                                            <div class="item">
+                                    <a href="/realtimenews/article/international/20170813/1181229/" target="_blank">
+                                      <img  class="owl-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="http://img.appledaily.com.tw/images/thumbnail/other/8ba9069412daddc563c5ddc9077ee4a4.jpg" alt="美軍「今夜就可戰鬥」" tcode="美軍「今夜就可戰鬥」"/>
+                                                                          </a>
+                                </div>
+                                                            <div class="item">
+                                    <a href="/realtimenews/article/local/20170813/1181263/" target="_blank">
+                                      <img  class="owl-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="http://img.appledaily.com.tw/images/thumbnail/other/29bb75489f8fda85416bbd8be19aded1.jpg" alt="男網友全身光溜溜GG了" tcode="男網友全身光溜溜GG了"/>
+                                                                          </a>
+                                </div>
+                                                            <div class="item">
+                                    <a href="/realtimenews/article/entertainment/20170813/1181278/" target="_blank">
+                                      <img  class="owl-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="http://img.appledaily.com.tw/images/thumbnail/other/8b5aae9752aa766d89aeed8746fb3919.jpg" alt="李毓芬柯震東親密同框" tcode="李毓芬柯震東親密同框"/>
+                                                                          </a>
+                                </div>
+                                                            <div class="item">
+                                    <a href="/realtimenews/article/life/20170813/1181109/" target="_blank">
+                                      <img  class="owl-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="http://img.appledaily.com.tw/images/thumbnail/other/2c40d81acbbff503909804181a33bc84.jpg" alt="女性嘿咻好痛" tcode="女性嘿咻好痛"/>
+                                                                          </a>
+                                </div>
+                                                            <div class="item">
+                                    <a href="/realtimenews/article/politics/20170813/1181064/" target="_blank">
+                                      <img  class="owl-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="http://img.appledaily.com.tw/images/thumbnail/other/3c61d33be456c3285524004d2274aaf6.jpg" alt="熱血教師黃益中" tcode="熱血教師黃益中"/>
+                                                                          </a>
+                                </div>
+                                                            <div class="item">
+                                    <a href="/realtimenews/article/finance/20170813/1181122/" target="_blank">
+                                      <img  class="owl-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="http://img.appledaily.com.tw/images/thumbnail/other/0f5434612c3e8c3a2434383a6dd8c2b4.jpg" alt="海底撈不如50嵐" tcode="海底撈不如50嵐"/>
+                                                                          </a>
+                                </div>
+                                                            <div class="item">
+                                    <a href="/realtimenews/article/recommend/20170813/1181273/" target="_blank">
+                                      <img  class="owl-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="http://img.appledaily.com.tw/images/thumbnail/other/d53552ceafc3434e78216fb8d1772f08.jpg" alt="八卦山分手魔咒" tcode="八卦山分手魔咒"/>
+                                                                          </a>
+                                </div>
+                                                            <div class="item">
+                                    <a href="/realtimenews/article/local/20170813/1181221/" target="_blank">
+                                      <img  class="owl-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="http://img.appledaily.com.tw/images/thumbnail/other/a8f2c4ad19771ce23cf9e53221990ed3.jpg" alt="女童踢電扶梯　腳趾遭夾粉碎性骨折" tcode="女童踢電扶梯　腳趾遭夾粉碎性骨折"/>
+                                                                          </a>
+                                </div>
+                                                            <div class="item">
+                                    <a href="/realtimenews/article/international/20170813/1181238/" target="_blank">
+                                      <img  class="owl-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="http://img.appledaily.com.tw/images/thumbnail/other/8d859e2ab0c32ec969b3d625748ca412.jpg" alt="美國白人至上釀3死35傷" tcode="美國白人至上釀3死35傷"/>
+                                                                          </a>
+                                </div>
+                                                    </div>
+                        <div class="xPrev">上一則</div>
+                        <div class="xNext">下一則</div>
+                    </section>
+                    <style>
+                        .realword {padding-top:5px;padding-bottom:30px;}
+                        .realword .link1 a {color:red;font-size:22px;font-weight:bold;}
+                        .realword .link1 {float:left;width:320px;text-align:center;}
+                        .rtddd .sp_ad {padding: 0.625em 20px;}
+                        .rtddd .sp_ad time {display: inline;font-size: 1em;margin-right: 20px;vertical-align: middle;}
+                        .rtddd .sp_ad h2 {background-color:#049000;display: inline;font-size: 1em;margin-right: 20px;vertical-align: middle;}
+                        .rtddd .sp_ad h1 {display: inline;}
+                        .rtddd .sp_ad h1 a {display: inline;font-size:16px;color:black;padding-left: 0px;}
+                        .rtddd .ccc h2 {background-color: #318597; padding:2px 14px;}
+                    </style>
+                    <script type='text/javascript'>googletag.cmd.push(function() {googletag.display('minibar');})</script>
+                    <div class="abdominis rlby clearmen">
+                        <h1 class="dddd"><time>2017 / 08 / 13</time></h1><ul class="rtddd slvl">                                <li class="rtddt polit">
+                                    <a href="/realtimenews/article/politics/20170813/1181337/為國訓練百位飛官　T-34飛行時數破萬的男人" target="_blank">
+                                        <time>11:32</time>
+                                        <h2>政治</h2>
+                                        <h1><font color="#ff0000">為國訓練百位飛官　T-34飛行時數破萬的...(1)</font></h1>
+                                    </a>
+                                </li>
+                                                        <li class="rtddt life even">
+                                    <a href="/realtimenews/article/life/20170813/1181151/男子嘿咻後「小弟弟」染成白色　禍首竟是她" target="_blank">
+                                        <time>11:30</time>
+                                        <h2>生活</h2>
+                                        <h1><font color="#ff0000">男子嘿咻後「小弟弟」染成白色　禍首竟是她(0)</font></h1>
+                                    </a>
+                                </li>
+                                                        <li class="rtddt inter hsv">
+                                    <a href="/realtimenews/article/international/20170813/1181264/新婚人妻經期狂出血　腹藏110顆肌瘤像懷胎6月" target="_blank">
+                                        <time>11:30</time>
+                                        <h2>國際</h2>
+                                        <h1><font color="#383c40">新婚人妻經期狂出血　腹藏110顆肌瘤像懷...(5027)</font></h1>
+                                    </a>
+                                </li>
+                                                        <li class="rtddt busi even">
+                                    <a href="/realtimenews/article/finance/20170813/1180276/求職高峰！經部加工處下周辦徵才430人" target="_blank">
+                                        <time>11:28</time>
+                                        <h2>財經</h2>
+                                        <h1><font color="#383c40">求職高峰！經部加工處下周辦徵才430人(1)</font></h1>
+                                    </a>
+                                </li>
+                                                        <li class="rtddt enter">
+                                    <a href="/realtimenews/article/entertainment/20170813/1181311/阿信幫劉若英拖延時間失敗　因他做了這件事..." target="_blank">
+                                        <time>11:28</time>
+                                        <h2>娛樂</h2>
+                                        <h1><font color="#ff0000">阿信幫劉若英拖延時間失敗　因他做了這件事...(1)</font></h1>
+                                    </a>
+                                </li>
+                                                        <li class="rtddt property even">
+                                    <a href="/realtimenews/article/property/20170813/1180398/一圖秒懂　裝潢油漆怎麼選" target="_blank">
+                                        <time>11:26</time>
+                                        <h2>地產</h2>
+                                        <h1><font color="#383c40">一圖秒懂　裝潢油漆怎麼選(18)</font></h1>
+                                    </a>
+                                </li>
+                                                        <li class="rtddt inter hsv">
+                                    <a href="/realtimenews/article/international/20170813/1181334/海灘出現神祕塑膠管　民眾狂自拍留念" target="_blank">
+                                        <time>11:25</time>
+                                        <h2>國際</h2>
+                                        <h1><font color="#383c40">海灘出現神祕塑膠管　民眾狂自拍留念(1)</font></h1>
+                                    </a>
+                                </li>
+                                                        <li class="rtddt life even">
+                                    <a href="/realtimenews/article/life/20170813/1181338/台北已36℃還可能更熱　花東縱谷也是" target="_blank">
+                                        <time>11:24</time>
+                                        <h2>生活</h2>
+                                        <h1><font color="#383c40">台北已36℃還可能更熱　花東縱谷也是(0)</font></h1>
+                                    </a>
+                                </li>
+                                                        <li class="rtddt busi">
+                                    <a href="/realtimenews/article/finance/20170813/1181292/300萬口頭offer正常嗎？網友說當然…" target="_blank">
+                                        <time>11:23</time>
+                                        <h2>財經</h2>
+                                        <h1><font color="#ff0000">300萬口頭offer正常嗎？網友說當然...(11128)</font></h1>
+                                    </a>
+                                </li>
+                                                        <li class="rtddt blog even">
+                                    <a href="/realtimenews/article/forum/20170813/1181300/一位花中學生：花蓮高中職學生自治組織全台最不健全，原因在這裡" target="_blank">
+                                        <time>11:23</time>
+                                        <h2>論壇</h2>
+                                        <h1><font color="#383c40">一位花中學生：花蓮高中職學生自治組織全台...(58)</font></h1>
+                                    </a>
+                                </li>
+                                                        <li class="rtddt local">
+                                    <a href="/realtimenews/article/local/20170813/1181322/反焚化爐　3千線西鄉民扶老攜幼抗議" target="_blank">
+                                        <time>11:23</time>
+                                        <h2>社會</h2>
+                                        <h1><font color="#383c40">反焚化爐　3千線西鄉民扶老攜幼抗議(44)</font></h1>
+                                    </a>
+                                </li>
+                                                        <li class="rtddt local even hsv">
+                                    <a href="/realtimenews/article/local/20170813/1181327/6歲童在飯店失蹤　獨自搭高捷被攔下" target="_blank">
+                                        <time>11:22</time>
+                                        <h2>社會</h2>
+                                        <h1><font color="#ff0000">6歲童在飯店失蹤　獨自搭高捷被攔下(496)</font></h1>
+                                    </a>
+                                </li>
+                                                        <li class="rtddt sport">
+                                    <a href="/realtimenews/article/sports/20170813/1181333/國民哈潑衝一壘重摔　左膝受傷退場" target="_blank">
+                                        <time>11:20</time>
+                                        <h2>體育</h2>
+                                        <h1><font color="#383c40">國民哈潑衝一壘重摔　左膝受傷退場(163)</font></h1>
+                                    </a>
+                                </li>
+                                                        <li class="rtddt local even">
+                                    <a href="/realtimenews/article/local/20170813/1181330/貼心載酒醉女友回家　通緝犯遇臨檢遭逮" target="_blank">
+                                        <time>11:09</time>
+                                        <h2>社會</h2>
+                                        <h1><font color="#ff0000">貼心載酒醉女友回家　通緝犯遇臨檢遭逮(244)</font></h1>
+                                    </a>
+                                </li>
+                                                        <li class="rtddt life">
+                                    <a href="/realtimenews/article/life/20170813/1181329/【台灣英文新聞】市售涼麵抽驗吾家味涼麵生菌數超標" target="_blank">
+                                        <time>11:06</time>
+                                        <h2>生活</h2>
+                                        <h1><font color="#383c40">【台灣英文新聞】市售涼麵抽驗 吾家味涼麵...(267)</font></h1>
+                                    </a>
+                                </li>
+                                                        <li class="rtddt inter even">
+                                    <a href="/realtimenews/article/international/20170813/1181321/婚禮遭人亂入只包30元禮金　新娘不氣還尋人感恩" target="_blank">
+                                        <time>11:05</time>
+                                        <h2>國際</h2>
+                                        <h1><font color="#ff0000">婚禮遭人亂入只包30元禮金　新娘不氣還尋...(3417)</font></h1>
+                                    </a>
+                                </li>
+                                                        <li class="rtddt property">
+                                    <a href="/realtimenews/article/property/20170813/1179878/擔心水溝孳生病媒蚊？　有這個就免驚" target="_blank">
+                                        <time>11:01</time>
+                                        <h2>地產</h2>
+                                        <h1><font color="#383c40">擔心水溝孳生病媒蚊？　有這個就免驚(694)</font></h1>
+                                    </a>
+                                </li>
+                                                        <li class="rtddt local even hsv">
+                                    <a href="/realtimenews/article/local/20170813/1181253/【有片】K歌完遭鎮暴槍射擊　開槍男遭奪槍毆傷逃" target="_blank">
+                                        <time>06:41</time>
+                                        <h2>社會</h2>
+                                        <h1><font color="#ff0000">【有片】K歌完遭鎮暴槍射擊　開槍男遭奪槍...(7646)</font></h1>
+                                    </a>
+                                </li>
+                                                        <li class="rtddt life">
+                                    <a href="/realtimenews/article/life/20170813/1181325/捐血送折價卷響應熱烈　捐血袋數增2.7倍" target="_blank">
+                                        <time>11:00</time>
+                                        <h2>生活</h2>
+                                        <h1><font color="#383c40">捐血送折價卷響應熱烈　捐血袋數增2.7倍(419)</font></h1>
+                                    </a>
+                                </li>
+                                                        <li class="rtddt animal even">
+                                    <a href="/realtimenews/article/animal/20170813/1180151/威！貓奴自製紙箱機器人　喵星人搶當駕駛員" target="_blank">
+                                        <time>10:50</time>
+                                        <h2>動物</h2>
+                                        <h1><font color="#383c40">威！貓奴自製紙箱機器人　喵星人搶當駕駛員(730)</font></h1>
+                                    </a>
+                                </li>
+                                                        <li class="rtddt enter">
+                                    <a href="/realtimenews/article/entertainment/20170813/1181299/巡演取消吃飽閒閒　小賈斯汀IG把妹被打槍" target="_blank">
+                                        <time>10:46</time>
+                                        <h2>娛樂</h2>
+                                        <h1><font color="#ff0000">巡演取消吃飽閒閒　小賈斯汀IG把妹被打槍(2505)</font></h1>
+                                    </a>
+                                </li>
+                                                        <li class="rtddt sport even">
+                                    <a href="/realtimenews/article/sports/20170813/1181315/史坦頓本季41轟　馬林魚主場生涯百轟" target="_blank">
+                                        <time>10:41</time>
+                                        <h2>體育</h2>
+                                        <h1><font color="#383c40">史坦頓本季41轟　馬林魚主場生涯百轟(1283)</font></h1>
+                                    </a>
+                                </li>
+                                                        <li class="rtddt sport">
+                                    <a href="/realtimenews/article/sports/20170813/1181318/國王藍道夫「麻」煩大了　最重將遭球監或永不錄用" target="_blank">
+                                        <time>10:41</time>
+                                        <h2>體育</h2>
+                                        <h1><font color="#ff0000">國王藍道夫「麻」煩大了　最重將遭球監或永...(3769)</font></h1>
+                                    </a>
+                                </li>
+                                                        <li class="rtddt inter even hsv">
+                                    <a href="/realtimenews/article/international/20170813/1181238/【仇恨片】美白人至上者非法集會　釀3死35傷" target="_blank">
+                                        <time>10:40</time>
+                                        <h2>國際</h2>
+                                        <h1><font color="#ff0000">【仇恨片】美白人至上者非法集會　釀3死3...(32646)</font></h1>
+                                    </a>
+                                </li>
+                                                        <li class="rtddt life">
+                                    <a href="/realtimenews/article/life/20170813/1181302/宗教團體亂放生　新店溪魚屍成群發惡臭" target="_blank">
+                                        <time>10:40</time>
+                                        <h2>生活</h2>
+                                        <h1><font color="#ff0000">宗教團體亂放生　新店溪魚屍成群發惡臭(2609)</font></h1>
+                                    </a>
+                                </li>
+                                                        <li class="rtddt polit even">
+                                    <a href="/realtimenews/article/politics/20170813/1181309/和平電廠明可望滿載發電　林全：大家辛苦了" target="_blank">
+                                        <time>10:40</time>
+                                        <h2>政治</h2>
+                                        <h1><font color="#ff0000">和平電廠明可望滿載發電　林全：大家辛苦了(1724)</font></h1>
+                                    </a>
+                                </li>
+                                                        <li class="rtddt blog">
+                                    <a href="/realtimenews/article/forum/20170813/1181313/願司法院不再是慣老板：值班vs.加班" target="_blank">
+                                        <time>10:37</time>
+                                        <h2>論壇</h2>
+                                        <h1><font color="#383c40">願司法院不再是慣老板：值班vs.加班(472)</font></h1>
+                                    </a>
+                                </li>
+                                                        <li class="rtddt local even">
+                                    <a href="/realtimenews/article/local/20170813/1181316/纏上你逼掏錢買愛心筆　少年辯：沒有強迫啦！" target="_blank">
+                                        <time>10:34</time>
+                                        <h2>社會</h2>
+                                        <h1><font color="#383c40">纏上你逼掏錢買愛心筆　少年辯：沒有強迫啦...(1153)</font></h1>
+                                    </a>
+                                </li>
+                                                        <li class="rtddt busi">
+                                    <a href="/realtimenews/article/finance/20170813/1181122/兩岸企業赴美拼專利　律師：海底撈不如五十嵐" target="_blank">
+                                        <time>10:33</time>
+                                        <h2>財經</h2>
+                                        <h1><font color="#ff0000">兩岸企業赴美拼專利　律師：海底撈不如五十...(3197)</font></h1>
+                                    </a>
+                                </li>
+                                                        <li class="rtddt local even">
+                                    <a href="/realtimenews/article/local/20170813/1181314/2支愛心筆強索1000元　2男違法打工遭送辦" target="_blank">
+                                        <time>10:33</time>
+                                        <h2>社會</h2>
+                                        <h1><font color="#383c40">2支愛心筆強索1000元　2男違法打工遭...(375)</font></h1>
+                                    </a>
+                                </li>
+                                                </ul>
+                        <nav class="page_switch lisw fillup" style="margin-top:0em;margin-bottom:1em;text-align:center">
+                        <a href="/realtimenews/section/new/1" title="1" class="enable">1</a><a href="/realtimenews/section/new/2" title="2" >2</a><a href="/realtimenews/section/new/3" title="3" >3</a><a href="/realtimenews/section/new/4" title="4" >4</a><a href="/realtimenews/section/new/5" title="5" >5</a><a href="/realtimenews/section/new/6" title="6" >6</a><a href="/realtimenews/section/new/7" title="7" >7</a><a href="/realtimenews/section/new/8" title="8" >8</a><a href="/realtimenews/section/new/9" title="9" >9</a><a href="/realtimenews/section/new/10" title="10" >10</a><a href="/realtimenews/section/new/11" title="下10頁">下10頁</a>                        </nav>
+                        <span class="clear man"></span>
+                    </div>
+                </div>
+                <div class="abdominis"></div>
+              </article>
+              <aside id="sitesidecontent" class="manu lvl">
+                <div id="rectangleAD1" class="ads rtb rtf"><script type='text/javascript'>googletag.cmd.push(function() {googletag.display('rectangleAD1');})</script></div>
+                <div id="rectangleAD2" class="ads rtb rtf"><script type='text/javascript'>googletag.cmd.push(function() {googletag.display('rectangleAD2');})</script></div>
+                <div id="MiniLREC1" class="ads rtb rtf"><script type='text/javascript'>googletag.cmd.push(function() {googletag.display('MiniLREC1');})</script></div>
+                <div id="MiniLREC2" class="ads rtb rtf"><script type='text/javascript'>googletag.cmd.push(function() {googletag.display('MiniLREC2');})</script></div>
+                <div id="MiniLREC3" class="ads rtb rtf"><script type='text/javascript'>googletag.cmd.push(function() {googletag.display('MiniLREC3');})</script></div>
+                <div id="MiniLREC4" class="ads rtb rtf"><script type='text/javascript'>googletag.cmd.push(function() {googletag.display('MiniLREC4');})</script></div>
+                <section id="section-hot-sidebox" class="shsb slvl clearmen  shsbsports"><header><h1>體育最&nbsp;Hot</h1><span><a target="_blank" href="/appledaily/hotdaily/sports">看更多</a></span></header><article><ul><li><h2><a href="/appledaily/article/sports/20170813/37747246/hotdailyart_right">殷仔初登板挨轟 新老闆幹的</a></h2><span>9269</span></li><li><h2><a href="/appledaily/article/sports/20170813/37747277/hotdailyart_right">台灣男籃 靠1勝晉級 慘輸...</a></h2><span>6661</span></li><li><h2><a href="/appledaily/article/sports/20170813/37747294/hotdailyart_right">沒在公牛從一而終 喬丹後悔...</a></h2><span>5964</span></li><li><h2><a href="/appledaily/article/sports/20170813/37747224/hotdailyart_right">蘇智傑滿貫 轟向世大運 出...</a></h2><span>6132</span></li><li><h2><a href="/appledaily/article/sports/20170813/37747288/hotdailyart_right">幹籃哥勾搭卡達夏家族 肯黛...</a></h2><span>3876</span></li></ul></article></section><section id="facebookbox" class="fbbx slvl clearmen">
+    <header>
+        <h1>Facebook&nbsp;</h1>
+        <a id="fblikebtn" class="on">蘋果粉絲團</a>
+    </header>
+    <article>
+        <div id="fb-root"></div>
+        <script language="javascript">
+            (function(d, s, id) {
+              var js, fjs = d.getElementsByTagName(s)[0];
+              if (d.getElementById(id)) return;
+              js = d.createElement(s); js.id = id;
+              js.src = "//connect.facebook.net/zh_TW/all.js#xfbml=1";
+              fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+        </script>
+        <div id="changeFBlike">
+            <script language="javascript">
+                if (GeoDFP['CC'] == 'US' || GeoDFP['CC'] == 'CA') {
+                    document.write('<div class="fb-like-box" data-href="https://www.facebook.com/AppleDailyUS/" data-width="300" data-height="370" data-show-faces="false" data-stream="true" data-show-border="true" data-header="false"></div>');
+                }
+                else {
+                    document.write('<div class="fb-like-box" data-href="http://www.facebook.com/appledaily.tw" data-width="300" data-height="370" data-show-faces="false" data-stream="true" data-show-border="true" data-header="false"></div>');
+                }
+            </script>
+        </div>
+    </article>
+</section>
+                <div id="halfpage" class="ads rtb rtf"><script type='text/javascript'>googletag.cmd.push(function() {googletag.display('halfpage');})</script></div>
+              </aside>
+            </div>
+            <div id="BottomBanner"><script type='text/javascript'>googletag.cmd.push(function() {googletag.display('BottomBanner');})</script></div>
+            <link rel="stylesheet" href="http://img.appledaily.com.tw/appledaily/images/css/dateinput_skin.css" />
+<div class="abkct clearmen"><a onClick="javascript:window.scroll(0,0)" class="abktp">回到最上面</a></div>
+<section id="extras" class="fexbr">
+    <div class="sqzer fillup">
+        <a href="/index/dailyquote/" title="每日一句" class="dyw"><span data-tooltip="每天一句好話"></span>每日一句</a>
+        <a href="/index/lottery" title="樂透發票" class="lnr"><span data-tooltip="看看你手氣"></span>樂透發票</a>
+        <a href="#" title="線上美語" class="oneg" onclick="JavaScript:window.open('/index/englishlearning/','','width=650,height=495')"><span data-tooltip="學習英文"></span>線上美語</a>
+        <a href="/index/weather" title="天氣" class="wkw"><span data-tooltip="今天一周天氣預報"></span>天氣</a>
+        <a href="/index/complain" title="爆料投訴" class="rpter"><span data-tooltip="爆料給蘋果"></span>爆料投訴</a>
+        <a href="/index/prize" title="中獎名單" class="itul"><span data-tooltip="蘋果送大獎！">中獎名單</span></a>
+        <a href="/index/ticket" title="贈獎活動" class="pguss"><span data-tooltip="贈獎活動"></span>贈獎活動</a>
+        <a href="/index/mobileguide" title="行動版" class="wmvs"><span data-tooltip="行動版">行動版</span></a>
+    </div>
+</section>
+
+<footer id="corpfoot">
+    <div class="sqzer">
+        <figure><a href="http://www.nextdigital.com.hk/investor/"><img src="http://img.appledaily.com.tw/images/NextDigital/logo_NextMedia_m.png" /></a></figure>
+        <section id="corpcompanies" class="clearmen">
+            <a href="/" class="first" target="_blank"><img src="http://img.appledaily.com.tw/appledaily/images/core/ft_AppleDaily.png" alt="蘋果日報 AppleDaily"  /></a>
+            <a href="/actionnews/" target="_blank"><img src="http://img.appledaily.com.tw/appledaily/images/core/ft_AnimatedNews.png" alt="動新聞"  /></a>
+            <a href="http://www.applelive.com.tw/livechannel/"  target="_blank"><img src="http://img.appledaily.com.tw/appledaily/images/core/applelive.gif" alt="蘋果Live"  /></a>
+            <a href="http://applevr.appledaily.com.tw/" target="_blank"><img src="http://img.appledaily.com.tw/appledaily/images/core/VRlogo87x40.png" alt=" 蘋果VR" width="83" height="30"/></a>
+            <a href="http://sharpdaily.tw/" target="_blank"><img src="http://img.appledaily.com.tw/appledaily/images/core/ft_SharpDaily.png" alt="爽報"  /></a>
+            <a href="http://www.nextmag.com.tw/" target="_blank"><img src="http://img.appledaily.com.tw/appledaily/images/core/ft_NextMag.png" alt="壹周刊"  /></a>
+            <a href="http://fashion.appledaily.com.tw/"  target="_blank"><img src="http://img.appledaily.com.tw/appledaily/images/core/applefashion_website_head_39x30.png" alt="蘋果時尚" /></a>
+            <a href="http://www.tomonews.com/" target="_blank"><img src="http://img.appledaily.com.tw/appledaily/images/core/tomonews_blue.png" alt="Tomonews"  style="margin-top:9px" /></a>
+            <a href="/teded" target="_blank"><img src="http://twimg.edgesuite.net/appledaily/images/core/ted.png" alt="Ted"></a>
+            <a href="http://fami.tw/pc" class="last" target="_blank"><img src="http://img.appledaily.com.tw/appledaily/images/core/01_PC_Fami_v1.png" alt="fami"></a>
+        </section>
+
+        <section id="corpinfo" class="fillip">
+            <a href="/rss/" style="color:red">RSS</a>
+            <a href="/index/aboutus/">了解蘋果日報</a>
+            <a href="/index/contactus/">聯絡我們</a>
+            <a href="/adguide" target="_blank">廣告刊登</a>
+            <a href="/index/faq/">常見問題</a>
+            <a href="/index/sitemap/">網站導覽</a>
+            <a href="/index/termofuse/">使用條款</a>
+            <a href="/index/authorization/">授權申請程序</a>
+            <a href="/index/privacy/">隱私權說明</a>
+            <a href="/index/disclaimer/">免責與分級</a>
+            <a href="/index/community/">蘋果社群</a>
+            <a href="http://www.facebook.com/nextmediastudent/" target="_blank">校園培果計畫</a>
+            <a href="http://www.104.com.tw/jobbank/custjob/index.php?r=cust&j=5e3a4326486c3e6a30323c1d1d1d1d5f2443a363189j01&jobsource=checkc"  target="_blank">蘋果徵才</a>
+            <a href="/index/subscribe" class="last">訂閱蘋果</a>
+        </section>
+        <p id="copyright">c 2017 www.appledaily.com.tw Limited. All rights reserved. 台灣蘋果日報 版權所有 不得轉載</p>
+    </div>
+</footer>
+<link rel="stylesheet" href="http://img.appledaily.com.tw/appledaily/images/css/appledaily.backtotop.css" />
+<script src="http://img.appledaily.com.tw/appledaily/images/js/jquery.appledaily.backtotop.js"></script>
+<div class="back-to-top-side"><a onclick="javascript:window.scroll(0,0)" class="back-to-top-btn overcooked">回到最上面</a></div><!-- .back-to-top-side -->
+<script type="text/javascript">
+    $(document).ready(function() {
+       var opacity = 0.5,
+            toOpacity = 1,
+            duration = 250;
+        $('.opacity').css('opacity', opacity).hover(function() {
+            $(this).fadeTo(duration, toOpacity);
+        }, function() {
+            $(this).fadeTo(duration, opacity);
+        });
+     });
+
+    var $window = $(window);
+    var $extras = $('#extras');
+    var $corpfoot = $('#corpfoot');
+    var $door = $('#door');
+    var $doorLeft = $('#door-left');
+    var $doorRight = $('#door-right');
+    var doorMarginTop = ($door.css('margin-top')) ? parseInt($door.css('margin-top').replace('px',''), 10) : 0;
+    var scrollTargetTop = 130;
+    $(window).scroll(function() {
+      var bottomPos;
+      if ($extras.length && $corpfoot.length) {
+        bottomPos = Math.min($extras.offset().top, $corpfoot.offset().top);
+      } else if (!$extras.length && !$corpfoot.length) {
+        bottomPos = $(document).height();
+      } else {
+        bottomPos = ($extras.offset() || $corpfoot.offset()).top;
+      }
+
+      var scrollTop = $window.scrollTop();
+      var bannerHeight = Math.max($doorLeft.height(),$doorRight.height());
+      var checkPoint = scrollTop+bannerHeight;
+
+      if ((scrollTop>scrollTargetTop) && (checkPoint < bottomPos)) {
+        $door.css('position','fixed').css('top','-'+doorMarginTop+'px');
+      } else {
+        if (checkPoint >= bottomPos) {
+          $door.css('position','absolute').css('top',(bottomPos-bannerHeight-doorMarginTop)+'px');
+        } else {
+          $door.css('position','relative').css('top','0px');
+        }
+      }
+    }).trigger('scroll');
+</script>
+
+<!-- Google Analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-2067247-40', 'auto', {'sampleRate':1});
+  ga('require', 'linkid', 'linkid.js');
+  ga('require', 'displayfeatures');
+  </script>
+<noscript>
+    <iframe src="//www.googletagmanager.com/ns.html?id=GTM-P5MXMC" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<script>
+            dataLayer = [{
+            'pageLevel' : 'Listing',
+            'videoArticle': 'non-video',
+            'publishDay': '',
+            'columnist' : '',
+            'column' : ''
+         }];
+    
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-P5MXMC');
+</script>
+<div id="nxm_iframeDiv" style="display:none"></div>
+<div id="nxm_vtrk_iframeDiv" style="display:none"></div>
+<!--page idle-->
+<link href="http://img.appledaily.com.tw/appledaily/images/adidle/css/Ted_fancybox.css"  rel="stylesheet" type="text/css">
+<script src="http://img.appledaily.com.tw/appledaily/images/adidle/js/Ted_plugin.js" ></script>
+<script src="http://img.appledaily.com.tw/appledaily/images/adidle/js/Ted_adidle.js" ></script>
+<script LANGUAGE="JavaScript">
+    var intRand = Math.floor((Math.random()*10));
+    var strHtml = 'Ted';
+    if(intRand>3 && intRand<6){
+        strHtml = 'infographic';
+    }
+    if(intRand>6){
+        strHtml = 'Sale';
+    }
+    document.write('<a class="pageidle" data-fancybox-type="iframe" href="http://www.appledaily.com.tw/'+strHtml+'_adidle.html#'+Math.random()+'"></a>');
+</script>
+<!--page idle-->
+        </div>
+    </div>
+    <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+    <script>
+        $(document).ready(function($) {
+          /* main carousel */
+          $('#carousel').on('onInitAfter',function(e){
+            $(this).find('.owl-dots').append( '<span class="masker"></span>' );
+          }).owlCarousel({
+            mouseDrag:false,
+            touchDrag:true,
+            pullDrag:false,
+            navText:['下一則','上一則'],
+            nav:false,
+            navSpeed:500,
+            dotsSpeed:500,
+            dots:false,
+            items:1,
+            autoplay:true,
+            autoplayHoverPause:false,
+            autoplayTimeout: 5000,
+            lazyLoad:true,
+            info: (typeof getInfo == 'function') ? getInfo : {},
+            loop:true
+          }).mouseenter(function() {
+            $(this).addClass('on');
+            $(this).trigger('pause.owl');
+            $('#splash').addClass('on');
+          }).mouseleave(function() {
+            $(this).removeClass('on');
+            $(this).trigger('autoplay.owl');
+            $('#splash').removeClass('on');
+          });
+
+          $('.xPrev').click(function() {
+            $('#carousel').trigger('prev.owl');
+          });
+          $('.xNext').click(function() {
+            $('#carousel').trigger('next.owl');
+          });
+
+          $('.xPrev, .xNext').mouseenter(function() {
+            $('#carousel').addClass('on');
+            $('#carousel').trigger('pause.owl');
+            $('#splash').addClass('on');
+          }).mouseleave(function() {
+            $('#carousel').removeClass('on');
+            $('#carousel').trigger('autoplay.owl');
+            $('#splash').removeClass('on');
+          });
+
+          /* firewire */
+          $('#firewire').owlCarousel({
+            mouseDrag:false,
+            touchDrag:false,
+            pullDrag:false,
+            animateOut: 'slideOutDown-100',
+            animateIn: 'slideInDown-100',
+            nav:false,
+            navSpeed:1000,
+            dots:false,
+            items:1,
+            autoplay:true,
+            autoplayHoverPause:true,
+            autoplayTimeout: 6000,
+            lazyLoad:true,
+            loop:true
+          });
+
+        });
+
+        function getInfo(owlInfo){
+          $('#carousel').data('currentPosition', owlInfo['currentPosition']);
+        }
+
+        $( document ).ready(function() {
+          var mainImgs = $('#carousel').find('.owl-item').not('.cloned').find('.item').find('img');
+          var mainLinks = $('#carousel').find('.owl-item').not('.cloned').find('.item').find('a');
+
+          function trackHomeMainImg(action, label) {
+            if ( ga ) ga('send', 'event', 'HomeMainImg', action, label);
+            if (window['console'] !== undefined) { console.log('SendGA: '+action) };
+          }
+
+          function isAD(imgAlt) {
+            return ((imgAlt) && (imgAlt.toUpperCase().substring(0,2)=="AD"));
+          }
+
+          function mainImgView(idx) {
+            var imgAlt = $(mainImgs[idx]).attr('tcode');
+            if (isAD(imgAlt)) trackHomeMainImg('views', imgAlt);
+          }
+
+          function mainImgClick(e) {
+            var imgAlt = $(e.currentTarget).find('img').attr('tcode');
+            if (isAD(imgAlt)) trackHomeMainImg('clicks', imgAlt);
+          };
+
+          $('#carousel').on('onTransitionEnd', function(e) {
+            var idx = $('#carousel').data('currentPosition');
+            if ($.isNumeric(idx)) mainImgView(idx);
+          });
+
+          /* entry track */
+          if ($('#carousel')) mainImgView(0);
+
+          /* bind click event */
+          $('#carousel').find('.owl-item').find('.item').find('a').click(mainImgClick);
+
+        });
+    </script>
+    <!-- YAHOO AD -->
+    <script type="text/javascript">
+        var sectionCode = sectionCode || [];
+        sectionCode.push("3fbb0747-092b-4c67-b6dc-c522d10c2475");
+        (function(){
+          var script = document.createElement("script");
+          script.async = true;
+          script.src = "https://s.yimg.com/av/gemini/ga/gemini.js";
+          document.body.appendChild(script);
+        })();
+   </script>
+   <!-- YAHOO AD -->
+</body>
+</html>
